@@ -9,7 +9,7 @@ class Father:
         print('This is Father class method')
         self.FirstName=name
         self.LastName=surname
-    
+
     def getFeature(self):
         print(self.FirstName, self.LastName)
         
