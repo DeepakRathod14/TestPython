@@ -1,0 +1,9 @@
+{
+  "loginAndVerification/test_02login.py::test_Invalidlogin": true,
+  "loginAndVerification/test_02login.py::test_validlogin": true,
+  "loginAndVerification/test_03dashboardVerification.py::test_scenario01": true,
+  "loginAndVerification/test_03dashboardVerification.py::test_scenario02": true,
+  "searchFlightSenarios/test_TC001_FlightSearch.py::test_scenario01": true,
+  "searchFlightSenarios/test_TC001_FlightSearch.py::test_scenario02": true,
+  "searchFlightSenarios/test_TC001_FlightSearch.py::test_scenario03": true
+}
