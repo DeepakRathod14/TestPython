@@ -10,9 +10,13 @@ class Animal(ABC):
     def move(self):
         pass
     
+    def food(self):
+        print('somethihng')
+    
 class Human(Animal):
     def move(self):
         print('I can walk and Run')
+        Animal.food(self)
     
 class Snack(Animal):
     def move(self):
@@ -25,6 +29,8 @@ def main():
     s1 = Snack()
     s1.move()
     
-    #a1 = Animal()
+    '''a1 = Animal()
+    print(a1.move()) '''
+
 if __name__ == '__main__':
     main()

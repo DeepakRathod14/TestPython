@@ -5,7 +5,7 @@ https://www.xvideos.com/video22077915/asian_flowerr_s_cam_show
 '''
 class A:
     def __init__(self,a):
-        print('A class'.format(a))
+        print('A class {}'.format(a))
 
 class B(A):
     def __init__(self,a):
