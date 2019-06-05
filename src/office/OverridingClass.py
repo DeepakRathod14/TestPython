@@ -32,7 +32,7 @@ class Employee(Organisation):
 class Labor(Employee):
     def __init__(self,a):
         super().__init__(a)
-        
+     
     def setFeature(self, name, surname, age, sal, incomeTax):
         Employee.setFeature(self, name, surname, age, sal)
         self.incomeTax=incomeTax

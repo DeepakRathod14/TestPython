@@ -10,7 +10,10 @@ class EmpltyClass:
         
 # Sample of Bean (Getter & Setter)
 class Bean:
-        
+    
+    def __init__(self):
+        print("Const")
+            
     def setter(self, x,y,z):
         self.x=x
         self.y=y

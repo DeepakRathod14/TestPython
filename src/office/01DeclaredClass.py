@@ -5,3 +5,6 @@ class EmpltyClass:
 
 class FirstLevelSample:
     print("Hello from first class")
+
+class test:
+    print("sample file")

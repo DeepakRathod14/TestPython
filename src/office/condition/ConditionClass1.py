@@ -6,7 +6,7 @@ Created on 13-Feb-2019
 class BasicConditions():
     def ConditionFirstLevel(self, name="None"):
         if name == "None" or name == '':
-            print('Your name is : {}'.format(name))
+            print('Your name is :-> {}'.format(name))
         else:
             print('Your name is : {}'.format(name))
 

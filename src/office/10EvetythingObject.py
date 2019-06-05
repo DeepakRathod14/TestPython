@@ -1,5 +1,5 @@
 # Empty class sample
-from xmlrpclib import boolean
+from xmlrpc.client import boolean
 
 class EmpltyClass:
         
